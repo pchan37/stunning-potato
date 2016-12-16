@@ -1,7 +1,7 @@
 var list = document.getElementById("thelist");
 var addChild = function() {
     var tag = document.createElement("li");
-    tag.innerHtml = "New Thing";
+    tag.innerHTML = "New Thing";
     list.appendChild(tag)
 }
 
